@@ -1,0 +1,112 @@
+.header-nav {
+  border-bottom: 1px solid;
+  border-color: var(--border-header);
+  border-top: none;
+}
+
+.header-nav__contact {
+  color: var(--main-silver);
+  text-decoration: none;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-nav .header-nav__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--black-main);
+  display: flex;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.header-nav__link::after {
+  color: var(--main-blue);
+}
+
+.header-nav__contact {
+  color: var(--main-silver);
+  text-decoration: none;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover svg{
+  color: var(--main-blue);
+  fill: var(--main-blue);
+}
+&:focus svg {
+  color: var(--main-blue);
+  fill: var(--main-blue);
+}
+}
+
+.header-nav .header-nav__link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--black-main);
+  display: flex;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.header-nav .header-nav__link:active {
+  color: var(--main-blue);
+}
+.header-nav .header-nav__link:hover,
+.header-nav .header-nav__link:focus {
+  color: var(--main-blue);
+}
+
+.header-nav .header-nav__contact:active {
+  color: var(--main-blue);
+}
+.header-nav .header-nav__contact:focus,
+.header-nav .header-nav__contact:hover {
+  color: var(--main-blue);
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 46px;
+  height: 80px;
+  justify-content: space-between;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+
+.header-nav__icon {
+  fill: var(--icon-socialmedia);
+  margin-right: 10px;
+  transition: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+  fill: var(--main-blue);
+  cursor: pointer;
+}
+}
+
+

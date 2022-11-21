@@ -1,0 +1,76 @@
+.webstudio {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  width: 145px;
+  margin-right: 93px;
+}
+
+
+.footer__webstudio-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  width: 145px;
+  margin-right: 93px;
+}
+
+.webstudio__logo {
+  color: var(--main-blue);
+  &:active {color: var(--main-blue);
+}}
+
+.footer__webstudio-logo {
+  color: var(--main-blue);
+  &:active {
+  color: var(--main-blue);
+}
+}
+
+.webstudio__logo2 {
+  color: var(--logo-black);
+  margin-right: 93px;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:active {
+  color: var(--main-blue);
+}
+}
+
+.footer__webstudio-logo3 {
+  color: var(--main-white);
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:active {
+  color: var(--main-blue);
+}
+}
+
+
+
+
+
+
+.webstudio__logo:hover,
+.webstudio__logo2:hover,
+.webstudio__logo:focus,
+.webstudio__logo2:focus {
+  color: var(--main-blue);
+}
+
+.footer__webstudio-logo3:hover,
+.footer__webstudio-logo3:focus {
+  color: var(--main-blue);
+}
+
+
+.footer__webstudio-logo:hover,
+.footer__webstudio-logo:focus {
+  color: var(--main-blue);
+}

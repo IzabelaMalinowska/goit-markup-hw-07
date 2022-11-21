@@ -1,0 +1,161 @@
+.footer__adress {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--main-white);
+  padding: 0;
+  margin-bottom: 9px;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:active {
+  color: var(--main-blue);
+}
+&:hover {
+  color: var(--main-blue);
+}
+&:focus {
+  color: var(--main-blue);
+}
+}
+
+.footer__contact-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.86;
+  color: var(--font-footer);
+  padding-top: 0px;
+  transition: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:active {
+  color: var(--main-blue);
+}
+&:hover
+ {
+  color: var(--main-blue);
+}
+&:focus {
+  color: var(--main-blue);
+}
+}
+
+
+
+.SM-footer {
+  padding-left: 70px;
+  margin: 0;
+}
+.footer-layout {
+  display: flex;
+  flex-direction: row;
+  padding-top: 72px;
+  padding-bottom: 60px;
+}
+.SM-footer__list {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  gap: 10px;
+}
+
+.SM-footer__link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  transition: fill, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+  cursor: pointer;
+  --color3: var(--main-white);
+  background-color: var(--main-blue);
+}
+&:focus {
+  cursor: pointer;
+  --color3: var(--main-white);
+  background-color: var(--main-blue);
+}
+}
+
+.SM-footer__icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+.SM-footer__join-us {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: var(--main-white);
+  padding: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+
+.newsletter {
+  margin-left: 78px;
+}
+
+.newsletter__text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  color: var(--main-white);
+  text-transform: uppercase;
+}
+
+.newsletter__join {
+  padding-top: 20px;
+}
+
+.newsletter__input {
+  height: 50px;
+  width: 358px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: rgba(47, 48, 58, 1);
+  padding-left: 16px;
+  &:hover {
+  outline-color: rgba(33, 150, 243, 0);
+}
+&:focus {
+  outline-color: rgba(33, 150, 243, 0);
+}
+}
+
+
+
+.newsletter__button {
+  height: 50px;
+  width: 200px;
+  border-radius: 4px;
+  background-color: var(--main-blue);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: center;
+  color: var(--main-white);
+  align-items: center;
+  border: none;
+}
+.newsletter__signUp {
+  margin-right: 24px;
+}
+
+.newsletter__icon {
+  fill: var(--main-white);
+  position: absolute;
+  margin-top: 2px;
+}
